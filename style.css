@@ -1,0 +1,40 @@
+.modal{
+display: none;
+
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+width: 400px;
+height: 50px;
+
+overflow: auto;
+background-color:black;
+background-color: bisque;
+}
+.wrapper{
+    width: 300px;
+ background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+height: 250px;
+border-radius: 30px;
+padding: 30px;
+}
+button{
+  background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #090979;
+background: linear-gradient(285deg, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 72%);
+}
+h1{
+margin-left: 100px;
+}
